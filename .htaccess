@@ -1,0 +1,8 @@
+Options -Indexes
+DirectoryIndex controller.php index.html index.htm index.php
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /controller.php [L]

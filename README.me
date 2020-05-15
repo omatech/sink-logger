@@ -1,0 +1,24 @@
+# sink-logger 
+
+Sink-Logger is an standalone app that logs in the database the http requests to a given url
+
+## Features
+- log all request into the database with the following info
+  - host
+  - path
+  - method
+  - user agent
+  - ip
+  - parameters (json)
+  - timestamp
+  - sanitized (flag to know if the parameters have been modified to avoid XSS or sql injection)
+
+- returns a JSON with all this info
+
+## Installation
+- Install the project in a folder
+- Copy the .env.example to .env
+- Change the database settings in .env
+- Run the sql script in /sql/sink_logs.sql into your database to create the log table
+- composer install or update
+- DONE!

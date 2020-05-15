@@ -1,0 +1,17 @@
+{
+  "name": "omatech/metalcaucho-loader",
+  "description": "Load Metalcaucho Sales",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "doctrine/dbal": "^2.9",
+    "vlucas/phpdotenv": "^4.1",
+    "phpmailer/phpmailer": "^6.0",
+    "omatech/editora-utils": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Omatech\\": "src/Omatech"
+    }
+  }
+}
