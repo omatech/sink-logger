@@ -6,7 +6,7 @@
   "require": {
     "doctrine/dbal": "^2.9",
     "vlucas/phpdotenv": "^4.1",
-    "phpmailer/phpmailer": "6.1.6",
+    "phpmailer/phpmailer": "6.5.0",
     "omatech/editora-utils": "dev-master"
   },
   "autoload": {
